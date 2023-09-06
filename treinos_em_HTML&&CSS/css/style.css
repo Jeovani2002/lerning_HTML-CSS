@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header {
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header img{
+    width: 185px;
+    color: aliceblue;
+}
+.header ul li+li{
+    margin-left: 20px;
+}
+.header a{
+    color: aliceblue;
+    transition: 1s;
+    cursor: pointer;
+}
+.header a:hover{
+    color: rgb(42, 76, 189);
+}
+/**************************************/
+.heroi {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center 25%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    
+}
+.heroi h1 {
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.pontos{
+    color: aliceblue;
+}
+
+.pontos span{
+    display: inline-block;
+    background-color: aliceblue;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
