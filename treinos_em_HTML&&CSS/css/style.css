@@ -5,56 +5,79 @@
 body{
     font-family: sans-serif;
 }
-.header {
+
+.header{
+    display: flex;
     background-color: #111;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-}
-.header ul{
-    display: flex;
-    list-style: none;
+    justify-content: space-around;
 }
 .header img{
-    width: 185px;
-    color: aliceblue;
+    width: 180px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
 }
 .header ul li+li{
-    margin-left: 20px;
+    margin-left: 24px;
 }
 .header a{
     color: aliceblue;
-    transition: 1s;
-    cursor: pointer;
+    transition: 0.5s;
 }
 .header a:hover{
-    color: rgb(42, 76, 189);
-}
-/**************************************/
-.heroi {
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-position: center 25%;
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 24px;
-    
-}
-.heroi h1 {
-    font-family: sans-serif;
-    color: aliceblue;
-}
-.pontos{
-    color: aliceblue;
+    color: rgb(201, 81, 81);
 }
 
-.pontos span{
+.heroi{
+    background-color: blue;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position:center 25% ;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    flex-direction: column ;
+}
+.heroi span{
     display: inline-block;
-    background-color: aliceblue;
-    height: 7px;
     width: 7px;
+    height: 7px;
+    background-color: aliceblue;
     border-radius: 50%;
+}
+.heroi h1{
+    color: aliceblue;
+}
+.galeria{
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding: 0 16px;
+}
+.gallery-row{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.gallery-row img{
+    width: 100%;
+    border-radius: 4%;
+    margin-bottom: 16px;
+}
+.gallery-row div{
+    width: 350px;
+    flex: 1 1 250px;
+}
+.galeria h2{
+    margin-bottom: 16px;
+    border-left: 4px solid rgb(223, 66, 27);
+    padding-left: 6px;
+}
+
+.galeria p{
+    font-weight: bolder;
 }
