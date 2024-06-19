@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssFrom.css">
+</head>
+<body>
+    <h1>Contactos</h1>
+    <form action="indexPseudo.html">
+        <div>
+            <label for="nameuser">Nome</label>
+            <input type="text" id="nameuser" name="nameuser" value="" required  />
+        </div>
+    
+        <div>
+            <label for="useremail">Email</label>
+            <input type="text" id="useremail" name="" value="" placeholder="use@gmai.com" />
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" value="">
+        </div>
+        <div>
+            <label for="bi">BI</label>
+            <input type="search" id="bi" name="bi" value="">
+        </div>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" value="" placeholder="(+244) xxx-xxx-xxx">
+        </div>
+        <label for="vagas">Vagas</label>
+        <div>
+            <select name="" id="vagas">
+                <option value="">remoto</option>
+                <option value="">presencial</option>
+                <option value="">jldjls</option>
+            </select>
+        </div>
+
+        <label for="skills">Habilidades</label>
+        <div>
+            <select name="" id="skills">
+                <optgroup label="Front-end">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="typescript">TypeScript</option>
+                    <option value="javascript">Javascript</option>
+                </optgroup>
+                <optgroup label="Back-end">
+                    <option value="python">Python</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="java">Java</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="tech">Tecnologias favoritas</label>
+            <input type="text" id="tech" list="languagues.list">
+            <datalist id="languagues.list">
+                <option value="php">PHP</option>
+                <option value="node js">Node Js</option>
+                <option value="c#">C#</option>
+                <option value="python">Python</option>
+                <option value="typescript">typescript</option>
+                <option value="java">Java</option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="sms">Mensagem</label>
+            <textarea name="" id="sms" name="" value="" required></textarea>    
+        </div>
+    
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
+

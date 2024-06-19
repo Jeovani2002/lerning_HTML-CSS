@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div p:first-child{
+            display: none;
+        }
+
+        div:hover p:first-child{
+            display: block;
+            background-color: red;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>
+            TEXTO ESCONDIDO!
+        </p>
+    </div>
+</body>
+</html>

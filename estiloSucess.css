@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin-left: 24px;
+}
+form{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+label{
+    margin-bottom: 4px;
+}
+input, textarea, button{
+    border-radius: 6px;
+    padding: 4px 8px;
+    width: 100%;
+
+}
+button{
+    border: 2px solid purple;
+    color: #fff;
+    font-weight: bold;
+    background-color: purple;
+}
+button:hover, button:focus{
+    background-color: #fff;
+    outline-color: purple;
+    color: purple;
+}
+
+label, input, textarea{
+    width: 100%;
+    display: flex;
+}
+ input:focus, textarea:focus{
+    outline-color: purple;
+}
+
+textarea{
+    min-width: 250px;
+    resize: vertical;
+}

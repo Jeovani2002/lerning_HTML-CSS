@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    background-color: #E1DDDA;
+}
+
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ebebeb;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+h2{
+    border-left: 4px solid #025FA5;
+    margin-bottom: 32px;
+    padding-left: 8px;
+    color: #025FA5;
+}
+.dark{
+    background-color: #012340;
+    color: #ccc;
+}
+
+.dark-link{
+    color: #025FA5;
+    transition: 0.2s;
+    border-bottom: 1px solid #025FA5;
+}
+.dark-link:hover, .dark-link:focus{
+    color: #E1DDDA;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.text-center{
+    text-align: center;
+}
+header { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 16px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header img{
+    width: 180px;
+}
+header ul li+li{
+    margin-left: 24px;
+}
+header a{
+    border-bottom: 1px solid #ebebeb;
+}
+header a:hover{
+    color: #5B814E;
+    border-bottom: 1px solid #5B814E;
+    font-weight: bold;
+}
+.hero{
+    background-color: blue;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center 25%;
+    height: 320px;
+    color: #ebebeb;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+
+    margin-top: 77px;
+
+
+}
+
+.hero h1{
+    font-weight: bold;
+    font-size: 36px;
+}
+.dots{
+    display: flex;
+    margin-top: 24px;
+}
+
+.hero span{
+    background-color: #ebebeb;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.hero span+span{
+    margin-left: 6px;
+}
+
+.gallery{
+    margin: 64px 24px 96px;
+    padding: 0 24px;
+   
+}
+.gallery-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+.gallery-row div{
+    flex: 1 1 250px;
+}
+
+.gallery-row img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery p{
+    font-weight: bold;
+    margin-top: 16px;
+    color: #025FA5;
+}
+
+.history{
+    margin: 64px 0 0px;
+    padding: 92px 24px;
+    border-top: 2px solid #DF262B;
+   /* background-image: linear-gradient(#141527, #DF6C40, #F48359, #831822, #973742);*/
+   background-image: linear-gradient(#012340, #0B2E58, #B82223, #893229);
+
+
+}
+
+.history .container{
+    max-width: 1200px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    
+
+    border-bottom:  1px solid #5B814E;
+}
+
+.history .coluna{
+    flex: 1 1 250px;
+}
+
+.history img{
+    width: 100%;
+    display: block;
+}
+
+.history p{
+    line-height: 1.5;
+}
+
+.history p + p{
+    margin-top: 24px;
+}
+
+footer{
+    padding: 64px 24px;
+}

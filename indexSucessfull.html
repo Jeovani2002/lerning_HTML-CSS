@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloSucess.css">
+</head>
+<body>
+    <h1>Contactos</h1>
+    <form action="">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" name="username" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="useremail" id="email" placeholder="user@gmail.com">
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="password" id="senha">
+        </div>
+        <div>
+            <label for="bi">BI</label>
+            <input type="text" name="BI" id="bi">
+        </div>
+        <div>
+            <label for="tele">Telefone</label>
+            <input type="tel" name="telefone" id="tele" placeholder="(+244) xxx-xxx-xxx">
+        </div>
+
+        <div>
+            <label for="map">Vagas</label>
+            <select name="" id="map">
+                <option value="rem">remoto</option>
+                <option value="pre">presencial</option>
+                <option value="jdj">Jiheiwjo</option>
+            </select>
+        </div>
+        <div>
+            <label for="lang">Road map</label>
+            <select name="" id="lang">
+                <optgroup label="Front-end">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="git">Git</option>
+                </optgroup>
+                <optgroup label="Back-end">
+                    <option value="py">Node.js</option>
+                    <option value="vue">Vue</option>
+                    <option value="php">php</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="tech">Tecnologias</label>
+            <input type="text" id="tech" list="languagues">
+            <datalist id="languagues">
+                <option value="1-python">Python</option>
+                <option value="2-Java">Java</option>
+                <option value="3-C#">C#</option>
+                <option value="4-PHP">PHP</option>
+            </datalist>
+        </div>
+      
+        <div>
+            <label for="sms">Mensagem</label>
+            <textarea name="mensagem" id="sms" >
+        </textarea>
+
+        </div>
+        
+        <div>
+            <button>Enviar</button>
+        </div>
+
+    </form>
+</body>
+</html>

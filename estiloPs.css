@@ -1,0 +1,47 @@
+
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+h1::before{
+    content: 'Jeovani Lucombo';
+    font-size: 16px;
+
+}
+
+li:first-child::marker{
+    content: '🏁';
+}
+li::marker{
+    content: '📍';
+}
+li:last-child::marker{
+    content: '🚩';
+}
+h1::after{
+    content: '🐱‍🏍';
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 8px;
+
+}
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+button:first-child::after{
+    content: '➕';
+}
+
+button:last-child::after{
+    content: '💬';
+}
